@@ -14,7 +14,8 @@ app.post("/api/gemini", async (req, res) => {
   console.log("Received prompt:", prompt); // Log incoming prompt
   try {
     const response = await axios.post(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${process.env.GEMINI_API_KEY}`,
+       `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${process.env.GEMINI_API_KEY}`,
+
       {
         contents: [{ parts: [{ text: prompt }] }]
       }

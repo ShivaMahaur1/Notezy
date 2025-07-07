@@ -1,6 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
 import { getGeminiSummary } from "../utils/geminiApi";
-import { useState } from "react";
 
 function AiSummarizer() {
   const [input, setInput] = useState("");
@@ -15,7 +14,7 @@ function AiSummarizer() {
         `Summarize the following text:\n${input}`
       );
       setSummary(
-        data.candidates?.[0]?.content?.parts?.[0]?.text || "No summary FOund"
+        data.candidates?.[0]?.content?.parts?.[0]?.text || "No summary Found"
       );
     } catch (error) {
       setSummary("Error:" + error.message);
@@ -37,14 +36,6 @@ function AiSummarizer() {
           <h2 className="text-lg font-semibold mb-4 flex items-center">
             <span className="mr-2">📥</span> Input Content
           </h2>
-          <div className="flex gap-2 mb-3">
-            <button className="flex-1 bg-gray-100 hover:bg-gray-200 border border-gray-200 rounded-md px-4 py-2 text-sm font-medium flex items-center justify-center gap-2">
-              <span>⬆️</span> Upload PDF
-            </button>
-            <button className="flex-1 bg-gray-100 hover:bg-gray-200 border border-gray-200 rounded-md px-4 py-2 text-sm font-medium flex items-center justify-center gap-2">
-              <span>📄</span> Upload Text
-            </button>
-          </div>
           <textarea
             className="w-full h-60 border border-gray-200 rounded-md p-3 text-gray-700 text-sm resize-none mb-4"
             placeholder="Paste your lecture notes, articles, or any text content here..."

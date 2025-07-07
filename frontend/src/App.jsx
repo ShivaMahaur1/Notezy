@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="flex">
+      <div className="flex sm:">
       <LeftSidebar />
       <Routes>
         <Route path="/" element={<AiSummarizer/>} />
