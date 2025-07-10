@@ -39,7 +39,7 @@ Students often face the challenge of:
 
 ## 📦 Tech Stack
 
-- **Frontend:** HTML, CSS, JavaScript *(or React, if used)*
+- **Frontend:** React , Tailwindcss*
 - **Backend:** Node.js with Express
 - **AI Integration:** Gemini API (or other LLM models)
 - **Deployment:** Render
