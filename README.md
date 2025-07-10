@@ -1,6 +1,6 @@
-# ⚠️ Notezy is currently optimized for PC and laptop use only. Mobile support coming soon!
+# ⚠️ StudyAi is currently optimized for PC and laptop use only. Mobile support coming soon!
 
-# 📚 Notezy – Your Smart Study Companion
+# 📚 StudyAi – Your Smart Study Companion
 
 🔗 **Live Site:** [https://notezy-3.onrender.com](https://notezy-3.onrender.com)
 
@@ -8,7 +8,7 @@
 
 ## ✨ Overview
 
-**Notezy** is a web application designed to help students quickly understand and engage with large amounts of text. It provides AI-generated summaries and quiz questions that make studying faster, smarter, and more effective.
+**StudyAi** is a web application designed to help students quickly understand and engage with large amounts of text. It provides AI-generated summaries and quiz questions that make studying faster, smarter, and more effective.
 
 Whether you’re reviewing class notes or preparing for exams, Notezy is your go-to study assistant.
 
@@ -30,7 +30,7 @@ Students often face the challenge of:
 - Preparing for exams quickly
 - Testing their knowledge effectively
 
-**Notezy** solves this by combining summarization and quiz generation into one powerful tool, helping you:
+**StudyAi** solves this by combining summarization and quiz generation into one powerful tool, helping you:
 - Save time
 - Improve retention
 - Study smarter, not harder
